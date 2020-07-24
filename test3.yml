@@ -1,0 +1,10 @@
+jenkins:
+  systemMessage: "Controlled by Configuration as Code"
+  
+  tool:
+  git:
+    installations:
+      - name: git
+        home: /bin/git
+      - name: another_git
+        home: /usr/local/bin/git
